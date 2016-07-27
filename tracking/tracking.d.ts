@@ -36,5 +36,5 @@ declare namespace tracking {
     run(): void;
   }
 
-  export function track(selector: string, tracker: tracking.Tracker): TrackerTask;
+  export function track(selector: string, tracker: tracking.Tracker, options): TrackerTask;
 }
